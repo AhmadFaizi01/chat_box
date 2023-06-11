@@ -1,0 +1,23 @@
+{"intents": [
+  {"tag": "greetings",
+   "patterns": ["hi", "whats up", "good day", "yo", "hey"], 
+   "responses": ["Hello", "What can I do for you", "Hey!"]
+  },
+  {"tag": "good bye",
+   "patterns": ["bye", "cya", "im out", "ok bye", "peace out"], 
+   "responses": ["Have good day", "Bye!", "good bless"]
+  },
+  {"tag": "age",
+   "patterns": ["how old are", "whats your age", "tell me your age"], 
+   "responses": ["Im 21!", "deez_nuts 21"]
+  },
+  {"tag": "todo",
+   "patterns": ["what do i have in my todo list", "todo list", "todo"], 
+   "responses": ["You have not provided you todo list yet", "you have nothing in your todo list"]
+  },
+  {"tag": "plans",
+   "patterns": ["whats my plans", "what does it say in my plans", "tell my plans"], 
+   "responses": ["You have nothing in your plans yet", "there is nothing in your plans"]
+  }
+]
+}
